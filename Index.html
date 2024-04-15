@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="formContainer">
+        <div class="container">
+            <h1 class="top">Tax Calculator</h1>
+        </div>
+        <div class="insideContainer">
+            <form id="myForm">
+                <fieldset>
+                    <legend>Income Details</legend>
+                    <div>
+                        <div class="sec">
+                            <label for="input1">Enter Gross Annual Income</label>
+                        </div>
+                        <div class="first">
+                            <span class="info-icon"
+                                title="Gross income is a total salary in a year before any deductions">?</span>
+                        </div>
+                        <input type="text" id="input1" name="input1" required>
+                        <span class="error-icon" title="Please Enter Number only">!</span>
+                    </div>
+                    <div>
+                        <div class="sec">
+                            <label for="input1">Enter Extra Income</label>
+                        </div>
+                        <div class="first">
+                            <span class="info-icon"
+                                title="Other income apart from the salary(Annual)">?</span>
+                        </div>
+                        <input type="text" id="input2" name="input2" required>
+                        <span class="error-icon" title="Please Enter Number only">!</span>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <div>
+                        <div class="sec">
+                            <label for="input1">Enter Age Group</label>
+                        </div>
+                        <div class="first">
+                            <span class="info-icon"
+                                title="Your age">?</span>
+                        </div>
+                        <input type="number" id="input3" name="input3" required>
+                        <span class="error-icon-other" title="Please Enter Number only">!</span>
+                    </div>
+                    <div>
+                        <div class="sec">
+                            <label for="input1">Enter Total Applicable Deductions</label>
+                        </div>
+                        <div class="first">
+                            <span class="info-icon"
+                                title="Annual deductions like expenses,bills and so on">?</span>
+                        </div>
+                        <input type="text" id="input4" name="input4" required>
+                        <span class="error-icon" title="Please Enter Number only">!</span>
+                    </div>
+                </fieldset>
+                <div class="btn">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="resultContainer">
+        <div id="result"></div>
+        <div class="btn-other">
+            <button id="closeButton">Close</button>
+        </div>
+    </div>
+
+    <script src="./App.js"></script>
+</body>
+
+</html>
