@@ -44,3 +44,6 @@ Fill in the form with your income details, including gross income, extra income,
 
 After filling in the form, click the "Submit" button to calculate tax.
 The tax calculation result will be displayed on the web page along with an small explanation.
+
+![alt text](http://github.com/Tamo18/Tax-Calculator.git/test_cases screen)
+
